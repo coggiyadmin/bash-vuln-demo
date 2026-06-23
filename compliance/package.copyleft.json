@@ -1,0 +1,4 @@
+{
+  "appLicense": "MIT",
+  "dependencies": { "gpl-reporting": "GPL-3.0-only" }
+}
