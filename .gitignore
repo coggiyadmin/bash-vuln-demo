@@ -1,0 +1,10 @@
+# build artifacts
+*.o
+*.so
+node_modules/
+__pycache__/
+target/
+
+# editor / backup
+*.swp
+*.bak
