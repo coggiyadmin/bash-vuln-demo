@@ -1,6 +1,6 @@
 #!/bin/bash
-# PRP-10 collect — cmdi
+# PRP-10 collect — xss
 t=""
 for x in "$@"; do t="${t}${x}"; done
 v="$t"
-grep "$v" /var/log/app.log
+echo "<p>$v</p>"

@@ -1,5 +1,5 @@
 #!/bin/bash
-# PRP-02 alias
+# PRP-02 alias — cmdi
 t="$1"
 u="$t"
 v="$u"
