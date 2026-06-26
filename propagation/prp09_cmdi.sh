@@ -1,6 +1,6 @@
 #!/bin/bash
-# PRP prp09
-t="$1"
-u="$t"
-v="$u"
+# PRP-09 stored2
+CACHE="$1"
+t="$CACHE"
+v="$t"
 grep "$v" /var/log/app.log

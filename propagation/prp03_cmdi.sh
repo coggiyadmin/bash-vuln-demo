@@ -1,6 +1,6 @@
 #!/bin/bash
-# PRP prp03
-t="$1"
-u="$t"
-v="$u"
+# PRP-03 destructure (simulated)
+q="$1"
+t="$q"
+v="$t"
 grep "$v" /var/log/app.log

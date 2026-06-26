@@ -1,5 +1,5 @@
 #!/bin/bash
-# PRP prp02
+# PRP-02 alias
 t="$1"
 u="$t"
 v="$u"

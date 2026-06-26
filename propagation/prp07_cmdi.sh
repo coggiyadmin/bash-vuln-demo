@@ -1,6 +1,5 @@
 #!/bin/bash
-# PRP prp07
-t="$1"
-u="$t"
-v="$u"
+# PRP-07 optional
+t="${1:-}"
+v="$t"
 grep "$v" /var/log/app.log

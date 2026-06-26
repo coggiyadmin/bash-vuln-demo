@@ -1,6 +1,4 @@
 #!/bin/bash
-# PRP prp06
+# PRP-06 template
 t="$1"
-u="$t"
-v="$u"
-grep "$v" /var/log/app.log
+grep "${t}" /var/log/app.log

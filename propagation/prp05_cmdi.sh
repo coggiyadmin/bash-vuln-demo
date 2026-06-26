@@ -1,6 +1,5 @@
 #!/bin/bash
-# PRP prp05
-t="$1"
-u="$t"
-v="$u"
+# PRP-05 slice
+t="${1:0:999}"
+v="$t"
 grep "$v" /var/log/app.log

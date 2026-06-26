@@ -1,6 +1,6 @@
 #!/bin/bash
-# PRP prp08
-t="$1"
-u="$t"
-v="$u"
+# PRP-08 except
+t=""
+t="$1" || true
+v="$t"
 grep "$v" /var/log/app.log

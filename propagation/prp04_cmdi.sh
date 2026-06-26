@@ -1,6 +1,5 @@
 #!/bin/bash
-# PRP prp04
+# PRP-04 field via nameref stub
 t="$1"
-u="$t"
-v="$u"
+v="$t"
 grep "$v" /var/log/app.log

@@ -1,6 +1,3 @@
 #!/bin/bash
-# PRP prp01
-t="$1"
-u="$t"
-v="$u"
-grep "$v" /var/log/app.log
+# PRP-01 inline
+grep "$1" /var/log/app.log
