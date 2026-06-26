@@ -1,3 +1,3 @@
 #!/bin/bash
-# san04 branch_only safe
-grep "$1" /var/log/app.log
+# san04 safe — argv grep
+grep -- "$1" /var/log/app.log

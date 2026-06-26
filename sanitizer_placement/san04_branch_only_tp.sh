@@ -1,3 +1,5 @@
 #!/bin/bash
-# san04 branch_only tp
-grep "$1" /var/log/app.log
+# SAN-04 branch only TP
+t="$1"
+if [ "$t" = "admin" ]; then t="safe"; fi
+grep "$t" /var/log/app.log

@@ -1,3 +1,4 @@
 #!/bin/bash
-# san03 alias_hop safe
-grep "$1" /var/log/app.log
+t="$1"
+u="$t"
+grep -- "$u" /var/log/app.log

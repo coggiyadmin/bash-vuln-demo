@@ -1,3 +1,5 @@
 #!/bin/bash
-# san03 alias_hop tp
-grep "$1" /var/log/app.log
+# SAN-03 alias hop ignores sanitize
+raw="$1"
+_="$raw"
+grep "$raw" /var/log/app.log

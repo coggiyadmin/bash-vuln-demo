@@ -1,3 +1,4 @@
 #!/bin/bash
-# san05 partial_strip tp
-grep "$1" /var/log/app.log
+# SAN-05 partial strip TP
+t="${1//</}"
+grep "$t" /var/log/app.log

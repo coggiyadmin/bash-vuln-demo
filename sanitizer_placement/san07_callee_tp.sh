@@ -1,3 +1,4 @@
 #!/bin/bash
-# san07 callee tp
-grep "$1" /var/log/app.log
+# SAN-07 callee sink TP
+sink() { grep "$1" /var/log/app.log; }
+sink "$1"

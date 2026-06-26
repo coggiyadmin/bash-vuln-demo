@@ -1,3 +1,3 @@
 #!/bin/bash
-# san01 after_concat safe
-grep "$1" /var/log/app.log
+# san01 safe — argv grep
+grep -- "$1" /var/log/app.log

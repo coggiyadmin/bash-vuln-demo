@@ -1,3 +1,4 @@
 #!/bin/bash
-# san02 interproc safe
-grep "$1" /var/log/app.log
+sanitize() { printf '%q' "$1"; }
+t="$(sanitize "$1")"
+grep -- "$t" /var/log/app.log

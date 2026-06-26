@@ -1,3 +1,3 @@
 #!/bin/bash
-# san06 chain safe
-grep "$1" /var/log/app.log
+# san06 safe — argv grep
+grep -- "$1" /var/log/app.log

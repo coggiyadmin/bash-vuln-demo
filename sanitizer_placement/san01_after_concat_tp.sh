@@ -1,3 +1,4 @@
 #!/bin/bash
-# san01 after_concat tp
-grep "$1" /var/log/app.log
+# san01 TP — sanitize after concat
+t="$1"
+grep "$t" /var/log/app.log

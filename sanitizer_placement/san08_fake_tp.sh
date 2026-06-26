@@ -1,3 +1,4 @@
 #!/bin/bash
-# san08 fake tp
-grep "$1" /var/log/app.log
+# SAN-08 fake sanitize comment
+t="$1" # sanitized
+grep "$t" /var/log/app.log
