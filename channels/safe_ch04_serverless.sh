@@ -1,4 +1,6 @@
 #!/bin/bash
-# TN — serverless handler fixed argv.
+# TN — serverless cmd token validated.
 set -euo pipefail
-grep -- "$1" /var/log/app.log || true
+val="$1"
+[[ "$val" =~ ^[a-z0-9_-]+$ ]] || exit 1
+echo "$val"
